@@ -28,7 +28,7 @@ body {
 
 main {
     display: flex;
-    height: 300px;
+    height: max-content;
     width: 780px;
     border-radius: 10px;
     overflow: hidden;
@@ -39,6 +39,7 @@ main {
     height: 100%;
     width: 39%;
     overflow: hidden;
+    height: 380px;
 
     img {
         height: 100%;
@@ -70,7 +71,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px;
 }
 
 
